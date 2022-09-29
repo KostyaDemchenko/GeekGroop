@@ -1,0 +1,6 @@
+.up-headder{
+    background-color: var(--light-blue);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
