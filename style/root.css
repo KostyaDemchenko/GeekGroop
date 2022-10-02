@@ -4,6 +4,12 @@
     /* Color */
 
     --dark-gray: #444748;
-    --light-blue:  #CBDCFF;
-
+    --light-blue:#CBDCFF;
+    --dark-blue: #0F1A34;
+    --neutral20: #2D3132;
+    --neutral30: #444748;
+    --neutral90: #E0E3E3;
+    --neutral95: #EFF1F1;
+    --neutral100:#fff;
+    --error60: #FF5449;
 }
