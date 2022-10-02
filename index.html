@@ -37,20 +37,28 @@
                         <div class="btn btn-prim">
                             <p>Додати товар</p>
                         </div>
-                        <div class="dropdown dropdown-toggle language m-0">
-                            <a class="btn" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
-                              Укр
-                            </a>
-                          
-                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                              <li><a class="dropdown-item" href="#">Eng</a></li>
-                              <li><a class="dropdown-item" href="#">Jpa</a></li>
+                        <div class="dropdown language m-0">
+                            <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                Укр
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                <li><a class="dropdown-item" href="#">Eng</a></li>
+                                <li><a class="dropdown-item" href="#">Jpa</a></li>
                             </ul>
                         </div>
-                        <div class="action-bar">
-                            <a class="icon" href=""><img src="./img/headder/favorite.svg" alt="favorite"></a>
-                            <a class="icon" href=""><img src="./img/headder/message.svg" alt="message"></a>
-                            <a class="icon" href=""><img src="./img/headder/cart.svg" alt="cart"></a>
+                        <div class="action-bar d-flex">
+                            <div class="acrion-bar-favorite">
+                                <a class="icon" href=""><img src="./img/headder/favorite.svg" alt="favorite"></a>
+                                <div class="alert-message alert-message-favorite"><p>8</p></div>
+                            </div>
+                            <div class="acrion-bar-message">
+                                <a class="icon" href=""><img src="./img/headder/message.svg" alt="message"></a>
+                                <div class="alert-message alert-message-message"><p>3</p></div>
+                            </div>
+                            <div class="acrion-bar-cart">
+                                <a class="icon" href=""><img src="./img/headder/cart.svg" alt="cart"></a>
+                                <div class="alert-message alert-message-cart"><p>3</p></div>
+                            </div>
                         </div>
                         <div class="dropdown user-profile">
                             <button class="btn dropdown-toggle d-flex align-items-center" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">

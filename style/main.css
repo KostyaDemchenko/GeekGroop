@@ -106,12 +106,14 @@ h1, h2, a, p{
 
 .icon{
     padding: 10px;
+}
+
+.acrion-bar-favorite, .acrion-bar-message, .acrion-bar-cart{
     position: relative;
 }
 
-.icon::after{
+.alert-message{
     position: absolute;
-    content: '';
     right: 0;
     top: 0;
     font-weight: 400;
@@ -123,37 +125,13 @@ h1, h2, a, p{
     border-radius: 50%;
     background-color: var(--neutral95);
     color: var(--neutral20);
-    transform: translate(-30%, 30%);
+    outline: 2px solid var(--neutral100) ;
+    transform: translate(-30%, 0);
 }
 
-.icon:nth-child(1)::after{
-    content: '8';
-    background-color: var(--neutral95);
-    color: var(--neutral20);
-}
-
-.icon:nth-child(2)::after{
-    content: '3';
+.alert-message-message{
     background-color: var(--error60);
     color: var(--neutral100);
-}
-
-.icon:nth-child(3)::after{
-    content: '3';
-    background-color: var(--neutral95);
-    color: var(--neutral20);
-}
-
-.icon::before{
-    position: absolute;
-    content: '';
-    right: 0;
-    top: 0;
-    width: 16px;
-    height: 16px;
-    border-radius: 50%;
-    background-color: var(--neutral100);
-    transform: translate(-30%, 30%);
 }
 
 .user-profile .dropdown-toggle::after{
