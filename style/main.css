@@ -6,7 +6,7 @@ body{
     box-shadow: 0 0 0 0 rgba(13, 109, 253, 0) !important;
 }
 
-h1, h2, a, p{
+h1, h2, h3, a, p{
     margin: 0;
     text-decoration: none;
 }
@@ -15,10 +15,15 @@ h1, h2, a, p{
     max-width: 1344px;
 }
 
+.neutral50{
+    color: var(--neutral50);
+}
+
 /* Headder */
 /* 1-st Part */
 
 .headder-wrapper{
+    margin-bottom: 2rem;
     border-bottom: 1px solid var(--neutral90);
 }
 
@@ -159,6 +164,89 @@ h1, h2, a, p{
 
 /* Main Screen */
 
-/* .main-screen .container{
+.main-screen .title-wrapper{
+    margin: 2rem 0;
+}
 
-} */
+.main-screen .title-wrapper .title{
+    margin-top: 40px;
+}
+
+.main-screen .title-wrapper h3{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    color: var(--neutral20);
+}
+
+.main-screen .title-wrapper h2{
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 150%;
+    color: var(--neutral20);
+}
+
+.filter-wrapper .title{
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 150%;
+    color: var(--neutral40);
+    margin-bottom: 25px;
+}
+
+.accordion{
+    margin-bottom: 2px;
+}
+
+.btn-filter-accardeon{
+    background-color: var(--neutral95) !important;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: var(--neutral30);
+}
+
+.accordion-button:not(.collapsed){
+    color: var(--neutral30);
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23212529'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
+
+.accordion-body {
+    border: 1px solid var(--neutral95);
+}
+
+.sort-wrapper{
+    margin-bottom: 25px;
+}
+
+.sort-wrapper .title{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    color: var(--neutral20);
+}
+
+.btn-groop-sort{
+    background-color: var(--neutral95);
+    border-radius: 100vw;
+    margin-left: 12px;
+}
+
+.btn-groop-sort .btn:nth-child(1){
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    color: var(--neutral20);
+}
+
+.btn-groop-sort .btn:nth-child(2){
+    margin-left: 1px;
+    border: 1px solid var(--neutral100);
+}
+.carts-wrapper .card{
+    margin-right: 12px;
+    margin-left: 12px;
+}
